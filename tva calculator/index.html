@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.js">
+</head>
+<body>
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">TVA CALCULATOR</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  
+                </div>
+              </div>
+            </div>
+          </nav>
+
+          <div class="form">
+
+            <div class="row g-3">
+                <div class="col-sm-6">
+                  <label for="product" class="form-label">Produit</label>
+                  <input type="text" class="form-control" id="product" placeholder="entrez le nom du produit..." value="" required="">
+                  
+                </div>
+    
+                <div class="col-sm-6">
+                  <label for="price" class="form-label">Prix</label>
+                  <input type="number" class="form-control" id="price" placeholder="tapez votre prix" value="" required="">
+                  
+                </div>
+    
+                <div class="col-md-5">
+                  <label for="country" class="form-label">TVA</label>
+                  <select class="form-select" id="country" required="">
+                    <option value="">18%</option>
+                  </select>
+                  <input type="text">
+                </div>
+
+                <button type="submit">Send</button>
+                
+              </div>
+          </div>
+    </div>
+</body>
+</html>

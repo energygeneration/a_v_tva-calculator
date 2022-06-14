@@ -1,0 +1,29 @@
+.container{
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    align-items: center;
+    background-color: aqua;
+    padding: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+input {
+    margin: 2rem;
+    width: 50%;
+}
+
+select{
+    margin: 2rem;
+}
+ label{
+    margin-left: 10px;
+ }
+ 
+ a{
+    text-decoration: none;
+    color: black;
+    
+ }
